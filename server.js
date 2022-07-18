@@ -25,7 +25,7 @@ import connectDB from "./db/connect.js";
 import authRouter from "./routes/authRoutes.js";
 import userRouter from "./routes/userRoutes.js";
 import productsRouter from "./routes/productsRoutes.js";
-import orderRouter from "./routes/OrderRoutes.js";
+import orderRouter from "./routes/orderRoutes.js";
 import reviewRouter from "./routes/reviewRoutes.js";
 
 // middleware
