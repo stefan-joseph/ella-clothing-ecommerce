@@ -1,0 +1,740 @@
+[
+  {
+    "title": "knitted sweater",
+    "slug": "knitted-sweater",
+    "gender": "women",
+    "price": 50,
+    "color": { "name": "washed black", "code": "#27272a" },
+    "description": "Stumptown roof party forage enamel pin banh mi. Iceland shoreditch 90's stumptown schlitz chicharrones vinyl offal. Chartreuse literally gentrify art party enamel pin, pitchfork semiotics. Church-key kitsch pabst leggings, vape wolf squid vaporware migas cliche everyday carry woke la croix. Deep v migas post-ironic vape slow-carb. PBR&B coloring book cronut ethical, activated charcoal fanny pack bitters.",
+    "category": "tops",
+    "imgPath": [
+      "women-knit-sweater-black-1.jpg",
+      "women-knit-sweater-black-2.jpg",
+      "women-knit-sweater-black-3.jpg",
+      "women-knit-sweater-black-4.jpg"
+    ],
+    "salePrice": 40,
+    "inCollection": "winter",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 0 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 64 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "knitted sweater",
+    "slug": "knitted-sweater",
+    "gender": "women",
+    "price": 50,
+    "color": { "name": "ocean blue", "code": "#06b6d4" },
+    "description": "Stumptown roof party forage enamel pin banh mi. Iceland shoreditch 90's stumptown schlitz chicharrones vinyl offal. Chartreuse literally gentrify art party enamel pin, pitchfork semiotics. Church-key kitsch pabst leggings, vape wolf squid vaporware migas cliche everyday carry woke la croix. Deep v migas post-ironic vape slow-carb. PBR&B coloring book cronut ethical, activated charcoal fanny pack bitters.",
+    "category": "tops",
+    "imgPath": [
+      "women-knit-sweater-blue-1.jpg",
+      "women-knit-sweater-blue-1.jpg",
+      "women-knit-sweater-blue-1.jpg",
+      "women-knit-sweater-blue-1.jpg"
+    ],
+    "salePrice": 40,
+    "inCollection": "winter",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 0 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 64 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "knitted sweater",
+    "slug": "knitted-sweater",
+    "gender": "women",
+    "price": 50,
+    "color": { "name": "rouge red", "code": "#9f1239" },
+    "description": "Stumptown roof party forage enamel pin banh mi. Iceland shoreditch 90's stumptown schlitz chicharrones vinyl offal. Chartreuse literally gentrify art party enamel pin, pitchfork semiotics. Church-key kitsch pabst leggings, vape wolf squid vaporware migas cliche everyday carry woke la croix. Deep v migas post-ironic vape slow-carb. PBR&B coloring book cronut ethical, activated charcoal fanny pack bitters.",
+    "category": "tops",
+    "imgPath": [
+      "women-knit-sweater-red-1.jpg",
+      "women-knit-sweater-red-1.jpg",
+      "women-knit-sweater-red-1.jpg",
+      "women-knit-sweater-red-1.jpg"
+    ],
+    "salePrice": 40,
+    "inCollection": "winter",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 0 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 64 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "plain t-shirt",
+    "slug": "plain-t-shirt",
+    "gender": "women",
+    "price": 25,
+    "color": { "name": "white", "code": "#f9fafb" },
+    "description": "Stumptown roof party forage enamel pin banh mi. Iceland shoreditch 90's stumptown schlitz chicharrones vinyl offal. Chartreuse literally gentrify art party enamel pin, pitchfork semiotics. Church-key kitsch pabst leggings, vape wolf squid vaporware migas cliche everyday carry woke la croix. Deep v migas post-ironic vape slow-carb. PBR&B coloring book cronut ethical, activated charcoal fanny pack bitters.",
+    "category": "tops",
+    "imgPath": [
+      "women-plain-t-shirt-white-1.jpg",
+      "women-plain-t-shirt-white-2.jpg",
+      "women-plain-t-shirt-white-3.jpg",
+      "women-plain-t-shirt-white-2.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "plain t-shirt",
+    "slug": "plain-t-shirt",
+    "gender": "women",
+    "price": 25,
+    "color": { "name": "black", "code": "#171717" },
+    "description": "Stumptown roof party forage enamel pin banh mi. Iceland shoreditch 90's stumptown schlitz chicharrones vinyl offal. Chartreuse literally gentrify art party enamel pin, pitchfork semiotics. Church-key kitsch pabst leggings, vape wolf squid vaporware migas cliche everyday carry woke la croix. Deep v migas post-ironic vape slow-carb. PBR&B coloring book cronut ethical, activated charcoal fanny pack bitters.",
+    "category": "tops",
+    "imgPath": [
+      "women-plain-t-shirt-black-1.jpg",
+      "women-plain-t-shirt-black-2.jpg",
+      "women-plain-t-shirt-black-3.jpg",
+      "women-plain-t-shirt-black-2.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "loose dress",
+    "slug": "loose-dress",
+    "gender": "women",
+    "price": 80,
+    "color": { "name": "white", "code": "#f9fafb" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "dresses",
+    "imgPath": [
+      "women-loose-dress-white-1.jpg",
+      "women-loose-dress-white-2.jpg",
+      "women-loose-dress-white-1.jpg",
+      "women-loose-dress-white-2.jpg"
+    ],
+    "salePrice": 70,
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": true
+  },
+  {
+    "title": "tinfoil dress",
+    "slug": "tinfoil-dress",
+    "gender": "women",
+    "price": 125,
+    "color": { "name": "gray", "code": "#d1d5db" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "dresses",
+    "imgPath": [
+      "women-tinfoil-dress-gray-1.jpg",
+      "women-tinfoil-dress-gray-2.jpg",
+      "women-tinfoil-dress-gray-3.jpg",
+      "women-tinfoil-dress-gray-4.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "plain leggings",
+    "slug": "plain-leggings",
+    "gender": "women",
+    "price": 50,
+    "color": { "name": "black", "code": "#171717" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "bottoms",
+    "imgPath": [
+      "women-plain-leggings-black-1.jpg",
+      "women-plain-leggings-black-2.jpg",
+      "women-plain-leggings-black-1.jpg",
+      "women-plain-leggings-black-2.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "24", "text": "24", "quantity": 64 },
+      { "size": "25", "text": "25", "quantity": 64 },
+      { "size": "26", "text": "26", "quantity": 64 },
+      { "size": "27", "text": "27", "quantity": 64 },
+      { "size": "28", "text": "28", "quantity": 0 },
+      { "size": "29", "text": "29", "quantity": 64 },
+      { "size": "30", "text": "30", "quantity": 64 },
+      { "size": "32", "text": "32", "quantity": 64 }
+    ],
+    "featured": true
+  },
+  {
+    "title": "plain leggings",
+    "slug": "plain-leggings",
+    "gender": "women",
+    "price": 50,
+    "color": { "name": "ocean blue", "code": "#0284c7" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "bottoms",
+    "imgPath": [
+      "women-plain-leggings-blue-1.jpg",
+      "women-plain-leggings-blue-2.jpg",
+      "women-plain-leggings-blue-3.jpg",
+      "women-plain-leggings-blue-4.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "24", "text": "24", "quantity": 64 },
+      { "size": "25", "text": "25", "quantity": 64 },
+      { "size": "26", "text": "26", "quantity": 64 },
+      { "size": "27", "text": "27", "quantity": 64 },
+      { "size": "28", "text": "28", "quantity": 0 },
+      { "size": "29", "text": "29", "quantity": 64 },
+      { "size": "30", "text": "30", "quantity": 64 },
+      { "size": "32", "text": "32", "quantity": 64 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "simple dress",
+    "slug": "simple-dress",
+    "gender": "women",
+    "price": 70,
+    "color": { "name": "red", "code": "#dc2626" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "dresses",
+    "imgPath": [
+      "women-simple-dress-red-1.jpg",
+      "women-simple-dress-red-2.jpg",
+      "women-simple-dress-red-1.jpg",
+      "women-simple-dress-red-2.jpg"
+    ],
+    "salePrice": 65,
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "simple dress",
+    "slug": "simple-dress",
+    "gender": "women",
+    "price": 70,
+    "color": { "name": "black", "code": "#171717" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "dresses",
+    "imgPath": [
+      "women-simple-dress-black-1.jpg",
+      "women-simple-dress-black-2.jpg",
+      "women-simple-dress-black-3.jpg",
+      "women-simple-dress-black-4.jpg"
+    ],
+    "salePrice": 65,
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "prairie dress",
+    "slug": "prairie-dress",
+    "gender": "women",
+    "price": 90,
+    "color": { "name": "white", "code": "#d1d5db" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "dresses",
+    "imgPath": [
+      "women-prairie-dress-white-1.jpg",
+      "women-prairie-dress-white-2.jpg",
+      "women-prairie-dress-white-3.jpg",
+      "women-prairie-dress-white-2.jpg"
+    ],
+    "salePrice": 82,
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "classic tank top",
+    "slug": "classic-tank-top",
+    "gender": "women",
+    "price": 30,
+    "color": { "name": "red", "code": "#dc2626" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "tops",
+    "imgPath": [
+      "women-classic-tank-top-red-1.jpg",
+      "women-classic-tank-top-red-2.jpg",
+      "women-classic-tank-top-red-3.jpg",
+      "women-classic-tank-top-red-4.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "classic tank top",
+    "slug": "classic-tank-top",
+    "gender": "women",
+    "price": 30,
+    "color": { "name": "sky blue", "code": "#7dd3fc" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "tops",
+    "imgPath": [
+      "women-classic-tank-top-blue-1.jpg",
+      "women-classic-tank-top-blue-2.jpg",
+      "women-classic-tank-top-blue-3.jpg",
+      "women-classic-tank-top-blue-2.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "classic tank top",
+    "slug": "classic-tank-top",
+    "gender": "women",
+    "price": 30,
+    "color": { "name": "white", "code": "#f9fafb" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "tops",
+    "imgPath": [
+      "women-classic-tank-top-white-1.jpg",
+      "women-classic-tank-top-white-2.jpg",
+      "women-classic-tank-top-white-3.jpg",
+      "women-classic-tank-top-white-4.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": true
+  },
+  {
+    "title": "classic tank top",
+    "slug": "classic-tank-top",
+    "gender": "women",
+    "price": 30,
+    "color": { "name": "black", "code": "#171717" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "tops",
+    "imgPath": [
+      "women-classic-tank-top-black-1.jpg",
+      "women-classic-tank-top-black-2.jpg",
+      "women-classic-tank-top-black-3.jpg",
+      "women-classic-tank-top-black-2.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 0 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 64 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "long sleeve dress",
+    "slug": "long-sleeve-dress",
+    "gender": "women",
+    "price": 75,
+    "color": { "name": "sea green", "code": "#34d399" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "dresses",
+    "imgPath": [
+      "women-long-sleeve-dress-green-1.jpg",
+      "women-long-sleeve-dress-green-2.jpg",
+      "women-long-sleeve-dress-green-3.jpg",
+      "women-long-sleeve-dress-green-2.jpg"
+    ],
+    "salePrice": 68,
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": true
+  },
+  {
+    "title": "latern sleeve dress",
+    "slug": "latern-sleeve-dress",
+    "gender": "women",
+    "price": 95,
+    "color": { "name": "light brown", "code": "#a67730" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "dresses",
+    "imgPath": [
+      "women-latern-sleeve-dress-brown-1.jpg",
+      "women-latern-sleeve-dress-brown-2.jpg",
+      "women-latern-sleeve-dress-brown-3.jpg",
+      "women-latern-sleeve-dress-brown-4.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 0 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 64 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "bootcut jeans",
+    "slug": "bootcut-jeans",
+    "gender": "women",
+    "price": 65,
+    "color": { "name": "bright orange", "code": "#f97316" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "bottoms",
+    "imgPath": [
+      "women-bootcut-jeans-orange-1.jpg",
+      "women-bootcut-jeans-orange-2.jpg",
+      "women-bootcut-jeans-orange-3.jpg",
+      "women-bootcut-jeans-orange-4.jpg"
+    ],
+    "salePrice": 60,
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "24", "text": "24", "quantity": 64 },
+      { "size": "25", "text": "25", "quantity": 64 },
+      { "size": "26", "text": "26", "quantity": 64 },
+      { "size": "27", "text": "27", "quantity": 64 },
+      { "size": "28", "text": "28", "quantity": 0 },
+      { "size": "29", "text": "29", "quantity": 64 },
+      { "size": "30", "text": "30", "quantity": 64 },
+      { "size": "32", "text": "32", "quantity": 64 }
+    ],
+    "featured": true
+  },
+  {
+    "title": "bootcut jeans",
+    "slug": "bootcut-jeans",
+    "gender": "women",
+    "price": 65,
+    "color": { "name": "light brown", "code": "#F5DEB3" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "bottoms",
+    "imgPath": [
+      "women-bootcut-jeans-brown-1.jpg",
+      "women-bootcut-jeans-brown-2.jpg",
+      "women-bootcut-jeans-brown-1.jpg",
+      "women-bootcut-jeans-brown-2.jpg"
+    ],
+    "salePrice": 60,
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "24", "text": "24", "quantity": 64 },
+      { "size": "25", "text": "25", "quantity": 64 },
+      { "size": "26", "text": "26", "quantity": 64 },
+      { "size": "27", "text": "27", "quantity": 64 },
+      { "size": "28", "text": "28", "quantity": 0 },
+      { "size": "29", "text": "29", "quantity": 64 },
+      { "size": "30", "text": "30", "quantity": 64 },
+      { "size": "32", "text": "32", "quantity": 64 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "relaxed jeans",
+    "slug": "relaxed-jeans",
+    "gender": "women",
+    "price": 60,
+    "color": { "name": "pearl white", "code": "#f1f5f9" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "bottoms",
+    "imgPath": [
+      "women-relaxed-jeans-white-1.jpg",
+      "women-relaxed-jeans-white-2.jpg",
+      "women-relaxed-jeans-white-3.jpg",
+      "women-relaxed-jeans-white-4.jpg"
+    ],
+
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "24", "text": "24", "quantity": 64 },
+      { "size": "25", "text": "25", "quantity": 64 },
+      { "size": "26", "text": "26", "quantity": 64 },
+      { "size": "27", "text": "27", "quantity": 64 },
+      { "size": "28", "text": "28", "quantity": 0 },
+      { "size": "29", "text": "29", "quantity": 64 },
+      { "size": "30", "text": "30", "quantity": 64 },
+      { "size": "32", "text": "32", "quantity": 64 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "woven cardigan",
+    "slug": "woven-cardigan",
+    "gender": "women",
+    "price": 55,
+    "color": { "name": "brown", "code": "#a67730" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "tops",
+    "imgPath": [
+      "women-woven-cardigan-brown-1.jpg",
+      "women-woven-cardigan-brown-2.jpg",
+      "women-woven-cardigan-brown-3.jpg",
+      "women-woven-cardigan-brown-2.jpg"
+    ],
+    "inCollection": "winter",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "tote bag",
+    "slug": "tote-bag",
+    "gender": "women",
+    "price": 15,
+    "color": { "name": "black", "code": "#171717" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "accessories",
+    "imgPath": [
+      "women-tote-bag-1.jpg",
+      "women-tote-bag-1.jpg",
+      "women-tote-bag-1.jpg",
+      "women-tote-bag-1.jpg"
+    ],
+    "salePrice": 10,
+    "inCollection": "summer",
+    "inventory": [{ "size": "os", "text": "one-size", "quantity": 64 }],
+    "featured": false
+  },
+  {
+    "title": "straw hat",
+    "slug": "straw-hat",
+    "gender": "women",
+    "price": 35,
+    "color": { "name": "light brown", "code": "#e0aa58" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "accessories",
+    "imgPath": [
+      "women-straw-hat-brown-1.jpg",
+      "women-straw-hat-brown-2.jpg",
+      "women-straw-hat-brown-3.jpg",
+      "women-straw-hat-brown-2.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [{ "size": "os", "text": "one-size", "quantity": 64 }],
+    "featured": false
+  },
+  {
+    "title": "dad cap",
+    "slug": "dad-cap",
+    "gender": "women",
+    "price": 25,
+    "color": { "name": "washed orange", "code": "#fb923c" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "accessories",
+    "imgPath": [
+      "women-dad-cap-orange-1.jpg",
+      "women-dad-cap-orange-2.jpg",
+      "women-dad-cap-orange-1.jpg",
+      "women-dad-cap-orange-2.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [{ "size": "os", "text": "one-size", "quantity": 64 }],
+    "featured": false
+  },
+  {
+    "title": "teen spirit sunglasses",
+    "slug": "teen-spirit-sunglasses",
+    "gender": "women",
+    "price": 20,
+    "color": { "name": "brown", "code": "#a67730" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "accessories",
+    "imgPath": [
+      "women-teen-spirit-sunglasses-brown-1.jpg",
+      "women-teen-spirit-sunglasses-brown-1.jpg",
+      "women-teen-spirit-sunglasses-brown-1.jpg",
+      "women-teen-spirit-sunglasses-brown-1.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [{ "size": "os", "text": "one-size", "quantity": 64 }],
+    "featured": false
+  },
+  {
+    "title": "teen spirit sunglasses",
+    "slug": "teen-spirit-sunglasses",
+    "gender": "women",
+    "price": 20,
+    "color": { "name": "black", "code": "#171717" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "accessories",
+    "imgPath": [
+      "women-teen-spirit-sunglasses-black-1.jpg",
+      "women-teen-spirit-sunglasses-black-2.jpg",
+      "women-teen-spirit-sunglasses-black-3.jpg",
+      "women-teen-spirit-sunglasses-black-2.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [{ "size": "os", "text": "one-size", "quantity": 64 }],
+    "featured": false
+  },
+  {
+    "title": "wayfarer sunglasses",
+    "slug": "wayfarer-sunglasses",
+    "gender": "women",
+    "price": 20,
+    "color": { "name": "black", "code": "#171717" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "accessories",
+    "imgPath": [
+      "women-wayfarer-sunglasses-black-1.jpg",
+      "women-wayfarer-sunglasses-black-2.jpg",
+      "women-wayfarer-sunglasses-black-1.jpg",
+      "women-wayfarer-sunglasses-black-2.jpg"
+    ],
+    "inCollection": "summer",
+    "inventory": [{ "size": "os", "text": "one-size", "quantity": 64 }],
+    "featured": false
+  },
+  {
+    "title": "oversized shirt",
+    "slug": "oversized-shirt",
+    "gender": "women",
+    "price": 60,
+    "color": { "name": "slate gray", "code": "#cbd5e1" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "tops",
+    "imgPath": [
+      "women-oversized-shirt-gray-1.jpg",
+      "women-oversized-shirt-gray-2.jpg",
+      "women-oversized-shirt-gray-3.jpg",
+      "women-oversized-shirt-gray-4.jpg"
+    ],
+    "salePrice": 45,
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "oversized shirt",
+    "slug": "oversized-shirt",
+    "gender": "women",
+    "price": 60,
+    "color": { "name": "white", "code": "#f9fafb" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "tops",
+    "imgPath": [
+      "women-oversized-shirt-white-1.jpg",
+      "women-oversized-shirt-white-2.jpg",
+      "women-oversized-shirt-white-3.jpg",
+      "women-oversized-shirt-white-2.jpg"
+    ],
+    "salePrice": 45,
+    "inCollection": "summer",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 0 },
+      { "size": "xl", "text": "extra-large", "quantity": 64 }
+    ],
+    "featured": false
+  },
+  {
+    "title": "trench coat",
+    "slug": "trench-coat",
+    "gender": "women",
+    "price": 115,
+    "color": { "name": "pale blue", "code": "#bfdbfe" },
+    "description": "Fashion axe woke mustache, trust fund wayfarers plaid portland brunch forage tumblr. Keffiyeh blue bottle meggings readymade letterpress lomo. Typewriter letterpress ennui, XOXO hashtag meh mixtape street art. XOXO DIY photo booth post-ironic kale chips vaporware quinoa yr meditation plaid. Kombucha selvage direct trade, tote bag selfies unicorn franzen art party +1 plaid letterpress chartreuse lomo taiyaki ugh. XOXO etsy pork belly succulents.",
+    "category": "tops",
+    "imgPath": [
+      "women-trench-coat-blue-1.jpg",
+      "women-trench-coat-blue-2.jpg",
+      "women-trench-coat-blue-3.jpg",
+      "women-trench-coat-blue-4.jpg"
+    ],
+    "salePrice": 103,
+    "inCollection": "winter",
+    "inventory": [
+      { "size": "xs", "text": "extra-small", "quantity": 64 },
+      { "size": "s", "text": "small", "quantity": 64 },
+      { "size": "m", "text": "medium", "quantity": 64 },
+      { "size": "l", "text": "large", "quantity": 64 },
+      { "size": "xl", "text": "extra-large", "quantity": 0 }
+    ],
+    "featured": true
+  }
+]
