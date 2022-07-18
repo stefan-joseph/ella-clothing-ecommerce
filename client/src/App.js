@@ -21,7 +21,7 @@ import {
 } from "./pages";
 
 function App() {
-  // useScrollToTop();
+  useScrollToTop();
   const { darkMode, transitionLoader } = useAppContext();
 
   return (

@@ -35,7 +35,10 @@ const OrderSummary = ({ clientOrder, values }) => {
   return (
     <Wrapper>
       {!clientOrder ? (
-        <button onClick={() => transitionRouter("/cart")} className="back-btn">
+        <button
+          onClick={() => transitionRouter("/cart")}
+          className="back-btn cart-btn"
+        >
           Back to cart
         </button>
       ) : (
@@ -134,15 +137,24 @@ const OrderSummary = ({ clientOrder, values }) => {
           </div>
           <div className="receipt-line">
             <div>
-              Shipping<span>${calculateShipping(values.state).toFixed(2)}</span>
+              Shipping
+              {values.state ? (
+                <span>${calculateShipping(values.state).toFixed(2)}</span>
+              ) : (
+                <span className="not-selected">select state</span>
+              )}
             </div>
           </div>
           <div className="total">
             <div>
               Total
-              <span>
-                ${calculateTotal(shoppingCart, values.state).toFixed(2)}
-              </span>
+              {values.state ? (
+                <span>
+                  ${calculateTotal(shoppingCart, values.state).toFixed(2)}
+                </span>
+              ) : (
+                <span className="not-selected">select state</span>
+              )}
             </div>
           </div>
         </>
@@ -248,5 +260,12 @@ const Wrapper = styled.section`
         font-size: 2rem;
       }
     }
+  }
+
+  .cart-btn {
+    width: fit-content;
+    margin: 0;
+    margin-top: unset;
+    margin-left: unset;
   }
 `;

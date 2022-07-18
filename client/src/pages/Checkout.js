@@ -100,7 +100,11 @@ const Checkout = () => {
                 onChange={handleChange}
               />
             </div>
-            <button className="submit-btn" type="submit" disabled={loading}>
+            <button
+              className="submit-btn payment-btn"
+              type="submit"
+              disabled={loading}
+            >
               {loading ? "Please Wait..." : "continue to payment"}
             </button>
           </form>
@@ -171,7 +175,7 @@ const Wrapper = styled.section`
       }
     }
 
-    button {
+    .payment-btn {
       margin-top: 3rem;
       margin-left: auto;
       display: flex;
