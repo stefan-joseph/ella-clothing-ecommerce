@@ -537,7 +537,7 @@ const AppProvider = ({ children }) => {
   };
 
   const getAllUserReviews = async () => {
-    handleStateChange({ name: "loading", value: "review" });
+    handleStateChange({ name: "loading", value: "reviews" });
     try {
       const { data } = await axios(`/api/v1/reviews/user`);
       dispatch({ type: GET_ALL_USER_REVIEWS_SUCCESS, payload: { data } });

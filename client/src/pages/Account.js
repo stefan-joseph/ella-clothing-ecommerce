@@ -56,9 +56,11 @@ const Account = () => {
 export default Account;
 
 const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
   margin: var(--appWidth);
   padding-top: var(--navbarHeight);
-  min-height: 110vh;
+  min-height: 100vh;
 
   nav {
     display: flex;

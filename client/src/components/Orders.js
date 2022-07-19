@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { useAppContext } from "../context/appContext";
-import { OrderSummary } from ".";
+import { Loading, OrderSummary } from ".";
 import styled from "styled-components";
 
 const Orders = () => {
-  const { getAllUserOrders, orders } = useAppContext();
+  const { getAllUserOrders, orders, loading } = useAppContext();
 
   const [orderDetails, setOrderDetails] = useState("");
 
@@ -12,6 +12,16 @@ const Orders = () => {
     getAllUserOrders();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  if (loading === "orders") {
+    return (
+      <Wrapper>
+        <div className="loading-container">
+          <Loading text="grabbing your orders" />
+        </div>
+      </Wrapper>
+    );
+  }
 
   if (orders.length < 1) {
     return (
@@ -89,8 +99,15 @@ const Orders = () => {
 };
 
 const Wrapper = styled.div`
-  max-width: 60rem;
-  margin-bottom: 5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  .loading-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
 
   .no-orders {
     font-size: 1.5rem;
@@ -100,10 +117,14 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
+    max-width: 60rem;
+    margin-bottom: 5rem;
   }
 
   .order-list {
     border-top: var(--borderWidth) solid var(--secondaryColor);
+    max-width: 60rem;
+    margin-bottom: 5rem;
   }
 
   .order {
@@ -145,6 +166,10 @@ const Wrapper = styled.div`
       color: var(--mainColor);
       text-transform: capitalize;
     }
+  }
+
+  .status {
+    margin-bottom: 2rem;
   }
 
   .details-btn {

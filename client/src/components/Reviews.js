@@ -7,8 +7,14 @@ import { IoCreateOutline } from "react-icons/io5";
 const Reviews = ({ type, reviews }) => {
   const { openReviewModal, transitionRouter, loading } = useAppContext();
 
-  if (loading === "review") {
-    return <Loading text="loading reviews" />;
+  if (loading === "reviews") {
+    return (
+      <Wrapper>
+        <div className="loading-container">
+          <Loading text="loading reviews" />
+        </div>
+      </Wrapper>
+    );
   }
 
   if (reviews.length < 1) {
@@ -135,6 +141,15 @@ const Reviews = ({ type, reviews }) => {
 export default Reviews;
 
 const Wrapper = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  .loading-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
   ::first-letter {
     text-transform: capitalize;
   }
