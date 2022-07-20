@@ -59,7 +59,8 @@ export default function CheckoutForm({ total }) {
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: "http://localhost:3000/success",
+        return_url: "https://ellaclothing.herokuapp.com/success",
+        // return_url: "http://localhost:3000/success",
       },
     });
 
