@@ -2,6 +2,8 @@ import dotenv from "dotenv";
 dotenv.config();
 import "express-async-errors";
 
+import cors from "cors";
+
 //express
 import express from "express";
 const app = express();
@@ -47,11 +49,20 @@ app.use(
     verify: (req, res, buffer) => (req["rawBody"] = buffer),
   })
 );
-app.use(helmet());
+// app.use(
+//   helmet({
+//     contentSecurityPolicy: false,
+//     crossOriginResourcePolicy: false,
+//   })
+// );
 // app.use(xss());
 app.use(mongoSanitize());
-
 app.use(cookieParser(process.env.JWT_SECRET));
+// app.use(
+//   cors({
+//     origin: "*",
+//   })
+// );
 app.use(express.static("./public"));
 
 app.get("/", (req, res) => {
