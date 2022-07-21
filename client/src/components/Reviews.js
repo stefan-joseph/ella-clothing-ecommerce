@@ -32,7 +32,6 @@ const Reviews = ({ type, reviews }) => {
   return (
     <Wrapper type={type}>
       <ul className="review-list">
-        {console.log(reviews)}
         {reviews.map(
           ({
             _id,
