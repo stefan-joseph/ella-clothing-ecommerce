@@ -53,6 +53,7 @@ app.use(
   helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" },
     contentSecurityPolicy: {
+      useDefaults: true,
       directives: {
         "script-src": ["'self'", "js.stripe.com/v3"],
         "default-src": ["'self'", "js.stripe.com"],
