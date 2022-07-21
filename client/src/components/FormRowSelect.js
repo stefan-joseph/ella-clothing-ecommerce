@@ -23,7 +23,8 @@ const FormRowSelect = ({
         disabled={disabled}
       >
         <option value="" disabled>
-          {labelText || name}
+          {(labelText || name).charAt(0).toUpperCase() +
+            (labelText || name).slice(1)}
         </option>
         {list.map((itemValue, index) => {
           return (
@@ -40,8 +41,4 @@ const FormRowSelect = ({
 
 export default FormRowSelect;
 
-const Wrapper = styled.div`
-  select:invalid {
-    color: var(--secondaryColor);
-  }
-`;
+const Wrapper = styled.div``;

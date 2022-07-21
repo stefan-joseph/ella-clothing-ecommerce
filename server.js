@@ -49,12 +49,32 @@ app.use(
     verify: (req, res, buffer) => (req["rawBody"] = buffer),
   })
 );
-// app.use(
-//   helmet({
-//     contentSecurityPolicy: false,
-//     crossOriginResourcePolicy: false,
-//   })
-// );
+app.use(
+  helmet({
+    crossOriginResourcePolicy: { policy: "cross-origin" },
+    contentSecurityPolicy: {
+      directives: {
+        "script-src": ["'self'", "js.stripe.com/v3"],
+        "default-src": ["'self'", "js.stripe.com"],
+      },
+    },
+    // contentSecurityPolicy: false,
+    crossOriginEmbedderPolicy: false,
+    // crossOriginOpenerPolicy: false,
+    // crossOriginResourcePolicy: false,
+    // dnsPrefetchControl: false,
+    // expectCt: false,
+    // frameguard: false,
+    // hidePoweredBy: false,
+    // hsts: false,
+    // ieNoOpen: false,
+    // noSniff: false,
+    // originAgentCluster: false,
+    // permittedCrossDomainPolicies: false,
+    // referrerPolicy: false,
+    // xssFilter: false,
+  })
+);
 // app.use(xss());
 app.use(mongoSanitize());
 

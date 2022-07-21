@@ -84,9 +84,7 @@ const Wrapper = styled.nav`
 
   .category-bar {
     display: flex;
-
     width: 100%;
-    text-transform: uppercase;
 
     label {
       font-size: 0.7rem;

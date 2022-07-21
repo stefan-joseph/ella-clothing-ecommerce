@@ -10,8 +10,15 @@ const LoginForm = ({ modal }) => {
   const navigate = useNavigate();
   const [isMember, setIsMember] = useState(true);
 
-  const { user, loading, registerUser, loginUser, closeLoginModal, showAlert } =
-    useAppContext();
+  const {
+    user,
+    loading,
+    registerUser,
+    loginUser,
+    closeLoginModal,
+    showAlert,
+    transitionRouter,
+  } = useAppContext();
 
   // change to useSate??
   const formValues = isMember
@@ -38,7 +45,7 @@ const LoginForm = ({ modal }) => {
   useEffect(() => {
     if (user && !modal) {
       setTimeout(() => {
-        navigate("/");
+        transitionRouter("/");
       }, 3000);
     }
     if (user && modal) {
