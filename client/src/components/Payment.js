@@ -4,17 +4,17 @@ import { Elements } from "@stripe/react-stripe-js";
 import axios from "axios";
 import styled from "styled-components";
 import { useAppContext } from "../context/appContext";
-import { OrderSummary, CheckoutForm, TextAccordian } from ".";
-import { v4 as uuidv4 } from "uuid";
+import { PaymentForm, Loading } from ".";
 
 const stripePromise = loadStripe(
   "pk_test_51KmN0GL0YOg0YkrybjYaVJ36vvsKZrw8oMmoVF5lxmrxwDLhcRXMMpH92n7Zzd7TsaWyAzi6ju3VIK1IPfKTR9bU00tJCqoYai"
 );
 
-const Payment = ({ handleClientOrder, clientOrder, shippingInfo }) => {
+const Payment = ({ onClientOrder, shippingInfo, onPaymentSuccess }) => {
   const { shoppingCart, user, loading, handleStateChange } = useAppContext();
 
   const [clientSecret, setClientSecret] = useState("");
+  const [orderTotal, setOrderTotal] = useState("");
 
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
@@ -36,7 +36,8 @@ const Payment = ({ handleClientOrder, clientOrder, shippingInfo }) => {
           response = data;
         }
         setClientSecret(response.clientSecret);
-        handleClientOrder(response.order);
+        onClientOrder(response.order);
+        setOrderTotal(response.order.total);
       } catch (error) {
         console.log(error);
       }
@@ -92,28 +93,27 @@ const Payment = ({ handleClientOrder, clientOrder, shippingInfo }) => {
     appearance,
   };
 
+  if (loading === "payment") {
+    return (
+      <Wrapper>
+        <div className="loading-container">
+          <Loading text="preparing secure payment form" />
+        </div>
+      </Wrapper>
+    );
+  }
+
   return (
     <Wrapper>
-      <h2>Payment</h2>
+      <h3 className="secondary-title">Payment</h3>
       {clientSecret && !loading && (
-        <div className="checkout-form">
+        <div className="payment-form">
           <Elements options={options} stripe={stripePromise}>
-            <CheckoutForm total={(clientOrder.total / 100).toFixed(2)} />
+            <PaymentForm
+              total={(orderTotal / 100).toFixed(2)}
+              onPaymentSuccess={onPaymentSuccess}
+            />
           </Elements>
-        </div>
-      )}
-      {clientOrder && (
-        <div className="order-summary-accordian">
-          <TextAccordian
-            title="Order Summary"
-            body={
-              <OrderSummary
-                clientOrder={clientOrder}
-                finalOrder={clientOrder ? true : false}
-              />
-            }
-            id={uuidv4()}
-          />
         </div>
       )}
     </Wrapper>
@@ -123,25 +123,13 @@ const Payment = ({ handleClientOrder, clientOrder, shippingInfo }) => {
 export default Payment;
 
 const Wrapper = styled.div`
-  margin-left: 5%;
-  > * {
-    margin-bottom: 1rem;
-  }
-  p {
-    font-size: 1.2rem;
-  }
-  h2 {
-    margin-top: 1rem;
-    font-size: 7rem;
-  }
-
-  .total {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  .order-summary-accordian {
-    @media (min-width: 901px) {
-      display: none;
-    }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  .loading-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;

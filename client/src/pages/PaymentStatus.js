@@ -17,10 +17,7 @@ const Success = () => {
 
   return (
     <Wrapper>
-      <p>
-        You payment is processing! Look for an email confirming your payment and
-        order details.
-      </p>
+      <p>Success! Payment received. We'll ship your order right away!</p>
       <p>Thanks for shopping with us!</p>
       <button
         onClick={() => transitionRouter("/")}

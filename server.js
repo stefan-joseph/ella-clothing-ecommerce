@@ -2,8 +2,6 @@ import dotenv from "dotenv";
 dotenv.config();
 import "express-async-errors";
 
-import cors from "cors";
-
 //express
 import express from "express";
 const app = express();
@@ -53,39 +51,15 @@ app.use(
   helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" },
     contentSecurityPolicy: false,
-    // {
-    //   useDefaults: true,
-    //   directives: {
-    //     "script-src": ["'self'", "js.stripe.com/v3"],
-    //     "default-src": ["'self'", "js.stripe.com"],
-    //   },
-    // },
-    // contentSecurityPolicy: false,
     crossOriginEmbedderPolicy: false,
-    // crossOriginOpenerPolicy: false,
-    // crossOriginResourcePolicy: false,
-    // dnsPrefetchControl: false,
-    // expectCt: false,
-    // frameguard: false,
-    // hidePoweredBy: false,
-    // hsts: false,
-    // ieNoOpen: false,
-    // noSniff: false,
-    // originAgentCluster: false,
-    // permittedCrossDomainPolicies: false,
-    // referrerPolicy: false,
-    // xssFilter: false,
+    originAgentCluster: false,
   })
 );
 // app.use(xss());
 app.use(mongoSanitize());
 
 app.use(cookieParser(process.env.JWT_SECRET));
-// app.use(
-//   cors({
-//     origin: "*",
-//   })
-// );
+
 app.use(express.static("./public"));
 
 app.get("/", (req, res) => {

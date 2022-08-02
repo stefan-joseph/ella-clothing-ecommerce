@@ -22,9 +22,12 @@ import Orders from "./Orders";
 import OrderSummary from "./OrderSummary";
 import Password from "./Password";
 import Payment from "./Payment";
+import PaymentForm from "./PaymentForm";
+import PaymentSuccess from "./PaymentSuccess";
 import ProductContainer from "./ProductContainer";
 import ProductDisplay from "./ProductDisplay";
 import ProductForm from "./ProductForm";
+import ProgressBar from "./ProgressBar";
 import RefineMenu from "./RefineMenu";
 import Reviews from "./Reviews";
 import ReviewsTab from "./ReviewsTab";
@@ -63,9 +66,12 @@ export {
   OrderSummary,
   Password,
   Payment,
+  PaymentForm,
+  PaymentSuccess,
   ProductContainer,
   ProductDisplay,
   ProductForm,
+  ProgressBar,
   RefineMenu,
   Reviews,
   ReviewsTab,

@@ -17,12 +17,12 @@ import {
   Account,
   ProtectedRoute,
   Checkout,
-  Success,
+  PaymentStatus,
 } from "./pages";
 
 function App() {
   useScrollToTop();
-  const { darkMode, transitionLoader } = useAppContext();
+  const { darkMode, transitionLoader, user, shoppingCart } = useAppContext();
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
@@ -40,18 +40,25 @@ function App() {
           <Route path="cart" element={<Cart />} />
           <Route path="about" element={<About />} />
           <Route path="login" element={<Login />} />
-          <Route path="/success" element={<Success />} />
+
           <Route
             path="account"
             element={
-              <ProtectedRoute>
+              <ProtectedRoute checkFor={user} redirect="/login">
                 <Account />
               </ProtectedRoute>
             }
           />
           <Route path="*" element={<Error />} />
         </Route>
-        <Route path="/checkout" element={<Checkout />} />
+        <Route
+          path="/checkout"
+          element={
+            <ProtectedRoute checkFor={shoppingCart} redirect="/cart">
+              <Checkout />
+            </ProtectedRoute>
+          }
+        />
       </Routes>
     </ThemeProvider>
   );

@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import {
-  AddressForm,
   OrderSummary,
   TextAccordian,
   Payment,
-  InfoForm,
+  ProgressBar,
+  BigLogo,
+  CheckoutForm,
+  PaymentSuccess,
 } from "../components";
 import { useAppContext } from "../context/appContext";
 import useForm from "../hooks/useForm";
@@ -15,6 +17,8 @@ import { v4 as uuidv4 } from "uuid";
 
 const Checkout = () => {
   const { handleStateChange, loading, user, logoutUser } = useAppContext();
+
+  const [checkoutStep, setCheckoutStep] = useState("address");
 
   const [shippingInfo, setShippingInfo] = useState("");
   const [clientOrder, setClientOrder] = useState("");
@@ -50,14 +54,9 @@ const Checkout = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
-  useEffect(() => {
-    handleStateChange({ name: "shippingInfo", value: null });
-    setClientOrder("");
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   const submitForm = (values) => {
     setShippingInfo(values);
+    setCheckoutStep("payment");
   };
 
   const { handleChange, handleSubmit, values, errors } = useForm(
@@ -69,53 +68,52 @@ const Checkout = () => {
 
   return (
     <Wrapper>
-      <div className="order-overview-container">
+      <div className="order-summary-sidebar">
         <h2>Order Summary</h2>
         <OrderSummary clientOrder={clientOrder} values={values} />
       </div>
-      {!shippingInfo ? (
-        <div className="checkout-info">
-          <h2>Checkout</h2>
-          <div className="order-summary-accordian">
-            <TextAccordian
-              title="Order Summary"
-              body={<OrderSummary clientOrder={clientOrder} values={values} />}
-              id={uuidv4()}
-            />
-          </div>
-          <form className="form" onSubmit={handleSubmit} noValidate>
-            <h3>Contact Info</h3>
-            <div className="form-center">
-              <InfoForm
-                values={values}
-                errors={errors}
-                onChange={handleChange}
-              />
-            </div>
-            <h3>Shipping Address</h3>
-            <div className="form-center">
-              <AddressForm
-                values={values}
-                errors={errors}
-                onChange={handleChange}
-              />
-            </div>
-            <button
-              className="submit-btn payment-btn"
-              type="submit"
-              disabled={loading}
-            >
-              {loading ? "Please Wait..." : "continue to payment"}
-            </button>
-          </form>
+      <div className="checkout-container">
+        <div className="logo-container">
+          <BigLogo />
         </div>
-      ) : (
-        <Payment
-          handleClientOrder={setClientOrder}
-          clientOrder={clientOrder}
-          shippingInfo={shippingInfo}
+        <ProgressBar
+          currentStep={checkoutStep}
+          steps={["cart", "address", "payment"]}
         />
-      )}
+        <h2 className="primary-title">Checkout</h2>
+        <div className="order-summary-accordian">
+          <TextAccordian
+            title="Order Summary"
+            body={<OrderSummary clientOrder={clientOrder} values={values} />}
+            id={uuidv4()}
+          />
+        </div>
+        {(() => {
+          switch (checkoutStep) {
+            case "address":
+              return (
+                <CheckoutForm
+                  values={values}
+                  errors={errors}
+                  onChange={handleChange}
+                  onSubmit={handleSubmit}
+                />
+              );
+            case "payment":
+              return (
+                <Payment
+                  shippingInfo={shippingInfo}
+                  onClientOrder={(order) => setClientOrder(order)}
+                  onPaymentSuccess={() => setCheckoutStep("success")}
+                />
+              );
+            case "success":
+              return <PaymentSuccess />;
+            default:
+              return <CheckoutForm />;
+          }
+        })()}
+      </div>
     </Wrapper>
   );
 };
@@ -125,17 +123,17 @@ export default Checkout;
 const Wrapper = styled.section`
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin: var(--appWidth);
-
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
   }
-  .order-overview-container {
-    padding-right: 8%;
+
+  .order-summary-sidebar {
     border-right: 1px solid var(--tertiaryColor);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 0 8%;
+    padding-top: 1rem;
     h2 {
       font-size: 2.6rem;
       margin-bottom: 2rem;
@@ -145,40 +143,47 @@ const Wrapper = styled.section`
     }
   }
 
-  .checkout-info {
+  .checkout-container {
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
-    margin-bottom: 5rem;
-    @media (max-width: 900px) {
-      margin: 0;
+    min-height: 100vh;
+    margin: 0 5%;
+    > * {
+      margin: 1rem 0;
     }
+  }
 
-    h2 {
-      margin: 2rem 0 1rem 0;
-      font-size: 7rem;
-      @media (max-width: 550px) {
-        font-size: 5rem;
-      }
-      @media (max-width: 4000px) {
-        font-size: 4rem;
-      }
-    }
-    h3 {
-      font-size: 2rem;
-      margin: 2rem 0 1rem 0;
-    }
+  .logo-container {
+    margin-bottom: 2rem;
+  }
 
-    .order-summary-accordian {
-      @media (min-width: 901px) {
-        display: none;
-      }
+  .primary-title {
+    font-size: 6rem;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    @media (max-width: 550px) {
+      font-size: 5rem;
     }
+    @media (max-width: 400px) {
+      font-size: 4rem;
+    }
+  }
 
-    .payment-btn {
-      margin-top: 3rem;
-      margin-left: auto;
-      display: flex;
+  .secondary-title {
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .payment-btn {
+    margin-top: 3rem;
+    margin-left: auto;
+    display: flex;
+  }
+
+  .order-summary-accordian {
+    @media (min-width: 901px) {
+      display: none;
     }
   }
 `;

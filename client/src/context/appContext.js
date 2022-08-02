@@ -442,6 +442,12 @@ const AppProvider = ({ children }) => {
     }
   };
 
+  const clearShoppingCart = async () => {
+    if (user) {
+    } else {
+    }
+  };
+
   const getAllProducts = async ({ category, featured, page, limit }) => {
     handleStateChange({ name: "loading", value: "products" });
     const { colorQuery, sizeQuery, collectionQuery, sortQuery } = state;
