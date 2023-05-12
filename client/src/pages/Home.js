@@ -41,12 +41,12 @@ const Home = () => {
   return (
     <Wrapper>
       <div id="home-banner">
-        <Banner
+        {/* <Banner
           main={true}
           height="100vh"
           position="fixed"
           bannerData={HomeBanners}
-        />
+        /> */}
       </div>
       <div className="about-section">
         <h2 className="title">■ ▢ ■ About Us</h2>

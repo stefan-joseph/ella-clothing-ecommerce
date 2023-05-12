@@ -1,9 +1,17 @@
 import styled from "styled-components";
 import { BigLogo } from ".";
 import { useAppContext } from "../context/appContext";
+import { useEffect } from "react";
 
 const TransitionCurtain = () => {
   const { showTransitionCurtain } = useAppContext();
+
+  // useEffect(() => {
+  //   window.addEventListener("load", (event) => {
+  //     console.log("page is fully loaded");
+  //     console.log(event);
+  //   });
+  // });
 
   return (
     <Wrapper>

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import {
   Modal,
   Navbar,
@@ -7,9 +7,11 @@ import {
   LoginForm,
   WriteReview,
   Footer,
+  Banner,
 } from "../components";
 import { useAppContext } from "../context/appContext";
 import styled from "styled-components";
+import { HomeBanners } from "../utils/BannerData";
 
 const SharedLayout = () => {
   const {
@@ -19,6 +21,9 @@ const SharedLayout = () => {
     closeReviewModal,
     showTransitionCurtain,
   } = useAppContext();
+
+  const { pathname } = useLocation();
+  console.log(pathname);
 
   useEffect(() => {
     // stop scrolling behind modal
@@ -46,6 +51,15 @@ const SharedLayout = () => {
       {showReviewModal && (
         <Modal window={<WriteReview />} onClose={() => closeReviewModal()} />
       )}
+      {pathname === "/" && (
+        <Banner
+          main={true}
+          height="100vh"
+          position="fixed"
+          bannerData={HomeBanners}
+        />
+      )}
+
       <div className={showTransitionCurtain ? "content" : "content animate"}>
         <Outlet />
       </div>

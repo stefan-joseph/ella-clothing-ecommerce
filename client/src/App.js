@@ -17,7 +17,6 @@ import {
   Account,
   ProtectedRoute,
   Checkout,
-  PaymentStatus,
 } from "./pages";
 
 function App() {

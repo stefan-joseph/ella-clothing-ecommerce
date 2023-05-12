@@ -276,6 +276,7 @@ const Wrapper = styled.div`
   height: ${({ bannerHeight }) => bannerHeight};
   overflow: hidden;
   color: white;
+
   #banner-arrows-unique {
     transition: color 1s linear;
     z-index: 10;
@@ -329,6 +330,7 @@ const Wrapper = styled.div`
       width: 100vw;
       flex-wrap: nowrap;
       z-index: 0;
+      overflow: hidden;
     }
   }
 
@@ -451,5 +453,9 @@ const Wrapper = styled.div`
   }
   .right-200 {
     transform: translateX(200%);
+  }
+
+  .all-banner-images {
+    position: sticky;
   }
 `;
